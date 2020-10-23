@@ -12,6 +12,35 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+/* 
+span.show-image:hover {
+  display: block;
+}
+
+span.show-image {
+  position: absolute;
+  display: none;
+} */
+
+/* .hide-image:hover {
+  display: block;
+} */
+
+/* span.display-image:hover span.hide-image {
+  display: block;
+} */
+
+.btnTop {
+  z-index: 1;
+  position: absolute;
+  top: 27px;
+  left: 32px;
+}
+
+.site-card-wrapper {
+  padding: 30px;
+  background: #ececec;
+}
 
 .App-header {
   background-color: #282c34;
@@ -36,3 +65,46 @@
     transform: rotate(360deg);
   }
 }
+
+div.show-image {
+  position: relative;
+  float: left;
+  margin: 5px;
+}
+/* div.show-image:hover img {
+  opacity: 0.5;
+} */
+div.show-image:hover button {
+  display: block;
+}
+div.show-image button {
+  position: absolute;
+  display: none;
+}
+
+/* input.update {
+  color: #fff;
+  background: #1890ff;
+  border-color: #1890ff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+} */
+
+/* div.show-image input.button {
+  top: 0;
+  left: 0;
+} */
+
+.usman {
+  z-index: 1;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  /* display: none; */
+}
+
+/* div.show-image input.delete {
+  top: 0;
+  left: 79%;
+} */

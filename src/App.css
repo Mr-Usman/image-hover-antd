@@ -96,15 +96,38 @@ div.show-image button {
   left: 0;
 } */
 
-.usman {
+.pin {
   z-index: 1;
   position: absolute;
-  top: 4px;
-  left: 4px;
+  top: 9px;
+  left: 10px;
   /* display: none; */
+}
+
+.star {
+  z-index: 1;
+  position: absolute;
+  top: 9px;
+  left: 155px;
 }
 
 /* div.show-image input.delete {
   top: 0;
   left: 79%;
 } */
+
+.ant-card-body {
+  padding: 5px;
+}
+
+.show-image .ant-card-design {
+  cursor: pointer;
+  -webkit-transition: border-color 0.3s, -webkit-box-shadow 0.3s;
+  transition: border-color 0.3s, -webkit-box-shadow 0.3s;
+  transition: box-shadow 0.3s, border-color 0.3s;
+  transition: box-shadow 0.3s, border-color 0.3s, -webkit-box-shadow 0.3s;
+}
+
+.ant-card-meta-detail > div:not(:last-child) {
+    margin-bottom: -5px;
+}
